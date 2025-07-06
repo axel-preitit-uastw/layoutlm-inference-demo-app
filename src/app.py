@@ -9,8 +9,8 @@ import pytesseract
 from transformers import LayoutLMv3ForTokenClassification, LayoutLMv3Processor, BatchEncoding
 from PIL import Image, ImageDraw, ImageFont
 
-from src.utils.file_ext import get_file_ext
-from src.utils.get_config import get_json_config
+from utils.file_ext import get_file_ext
+from utils.get_config import get_json_config
 
 LAYOUT_BBOX_SCALE = 1000
 INPUT_MAX_LENGTH = 512
