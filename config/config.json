@@ -1,0 +1,11 @@
+{
+  "model": {
+    "path": "./model/250630_model"
+  },
+  "processor": {
+    "path": "./processor/250630_processor"
+  },
+  "ocr": {
+    "lang": "spa"
+  }
+}
